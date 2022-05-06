@@ -2,6 +2,7 @@ import { Profile } from "./components/profile"
 import { GlobalStyles } from "./styles/global"
 
 import * as S from "./app-styles"
+import { Description } from "./components/about"
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
         <S.Container>
             <GlobalStyles />
             <Profile />
-            <h1>Hello world</h1>
+            <Description />
         </S.Container>
 
     )
